@@ -1,0 +1,387 @@
+.download-container{
+    background-image: url(../imgs/splash.png);
+    background-color: #1c1c1c;
+    box-shadow: 0 10px 20px 0 rgba(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    height: 420px;
+    width: 60%;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    padding: 40px;
+}
+.download-icon-txt{
+    color: #eaeaeae6;
+}
+.download-icons-child1,.download-icons-child2,.download-icons-child3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.download-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 70%;
+}
+.download-icon{
+    border: 1px solid rgba(131, 131, 131, 0.39);
+    background-color: #66666633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.download-icon ion-icon{
+    color: rgba(211, 211, 211, 0.39);
+    font-size: 30px;
+}
+.download-txts{
+    margin-bottom: 40px;
+    width: 600px;
+}
+.download-txts>h2{
+    color: #ffaa00;
+    font-family: GT Super Display Bold;
+    font-size: 48px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.download-txts>p{
+    color: #eaeaea;
+    font-family: TT Norms Pro Light,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.download-btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 400px;
+}
+.download-btn{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.download-btn:hover{
+    cursor: pointer;
+}
+.download-btn>div>ion-icon{
+    font-size: 30px;
+}
+.download-btn-txt{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.download-btn-txt1{
+    align-self: flex-start;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1d1d1f;
+    text-align: left;
+    width: 100%;
+}
+.download-btn-txt2{
+    align-self: flex-start;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 16px;
+    color: #1d1d1f;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+}
+.download-btn-icon{
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {}
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {
+    .download-container{
+        border-radius: 40px;
+        height: 550px;
+        margin-bottom: 50px;
+        width: 96%;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+}
+    .download-icons{
+        border: 1px solid white;
+        height: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+    .download-icon{
+        border-radius: 64px;
+        height: 64px;
+        width: 64px;
+        -webkit-border-radius: 64px;
+        -moz-border-radius: 64px;
+        -ms-border-radius: 64px;
+        -o-border-radius: 64px;
+}
+    .download-icon-txt{
+        font-size: 12px;
+    }
+    .download-txts{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .download-txts>h2{
+        font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+        font-size: 24px;
+        text-align: center;
+    }
+    .download-txts>p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .download-btns{
+        flex-direction: column;
+        height: 130px;
+        width: 56%;
+    }
+    .download-btn{
+        height: 60px;
+        width: 100%;
+        padding: 16px 24px;
+    }
+}
+
+@media only screen and (min-width: 600px) 
+and (max-width: 767px){
+    .download-container{
+        border-radius: 40px;
+        height: 550px;
+        margin-bottom: 100px;
+        width: 96%;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+}
+    .download-icons{
+        width: 55%;
+        height: 150px;
+    }
+    .download-icon{
+        border-radius: 64px;
+        height: 64px;
+        width: 64px;
+        -webkit-border-radius: 64px;
+        -moz-border-radius: 64px;
+        -ms-border-radius: 64px;
+        -o-border-radius: 64px;
+}
+    .download-icon-txt{
+        font-size: 12px;
+    }
+    .download-txts{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .download-txts>h2{
+        font-family: GT Super Display Bold;
+        font-size: 24px;
+        text-align: center;
+    }
+    .download-txts>p{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .download-btns{
+        flex-direction: column;
+        height: 130px;
+        width: 38%;
+    }
+    .download-btn{
+        height: 60px;
+        width: 100%;
+        padding: 16px 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+and (max-width: 991px){
+    .download-container{
+        border-radius: 40px;
+        height: 550px;
+        margin-bottom: 150px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        width: 60%;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    .download-icons{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        width: 70%;
+        height: 100px;
+    }
+    .download-icons-child1,.download-icons-child2,.download-icons-child3{
+        height: 90px;
+    }
+    .download-icon{
+        border-radius: 60px;
+        height: 60px;
+        width: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+}
+    .download-icon-txt{
+        font-size: 12px;
+    }
+    .download-txts{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 80%;
+    }
+    .download-txts>h2{
+        font-family: GT Super Display Bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    .download-txts>p{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .download-btns{
+        flex-direction: column;
+        height: 130px;
+        margin-top: 40px;
+        width: 48%;
+    }
+    .download-btn{
+        height: 60px;
+        width: 100%;
+        padding: 16px 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+and (max-width: 1279px){
+    .download-container{
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        height: 420px;
+        padding: 0;
+        width: 60%;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .download-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .download-icons-child1,.download-icons-child2,.download-icons-child3{
+        height: 90px;
+    }
+    .download-icon{
+        border-radius: 60px;
+        height: 60px;
+        width: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+}
+    .download-txts{
+        margin-bottom: 40px;
+        width: 600px;
+    }
+    .download-txts>h2{
+        font-family: GT Super Display Bold;
+        font-size: 36px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .download-txts>p{
+        font-family: TT Norms Pro Light,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0;
+        text-align: center;
+    }
+    .download-btns{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .download-btn{
+        background-color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .download-btn:hover{
+        cursor: pointer;
+    }
+    .download-btn>div>ion-icon{
+        font-size: 30px;
+    }
+    .download-btn-txt{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1280px) {}

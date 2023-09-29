@@ -1,0 +1,253 @@
+.hero{
+    height: 1200px;
+    margin-bottom: 370px;
+    width: 100%;
+}
+.hero-div{
+    color: #1d1d1f;
+    height: 450px;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+}
+.hero-img{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 95%;
+}
+.hero-img img{
+    width: 98%;
+}
+.hero-div>div{
+    color: #1d1d1f;
+}
+.hero-div h1{
+    font-family: GT Super Display Bold,TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    line-height: 0.5em;
+    color: #1d1d1f;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.hero-div>div>p{
+    font-family:TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 58%;
+}
+.medium1{
+    font-weight: 500;
+}
+.hero-button{
+    margin: 50px auto;
+    text-align: center;
+}
+.hero-button a{
+    background-color: #ffaa00;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    padding: 20px 24px;
+    outline: none;
+    width: 90px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.hero-button a:hover{
+    cursor: pointer;
+}
+.hero-div>a>h2{
+    color: #16a34a;
+    font-family: GT Super Display Bold,TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media only screen
+and (max-width: 359px) {
+    .hero{
+        height: 400px;
+        margin-top: -35px;
+        margin-bottom: 50px;
+    }
+    .hero-div{
+        margin-top: 0;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero-div h1{
+        font-size: 20px;
+        line-height: 0.2em;
+        margin-bottom: 15px;
+    }
+    .hero-div>div>p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        width: 92%;
+    }
+    .hero-button a{
+        padding: 12px 18px;
+    }
+    .hero-div>a>h2{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {
+    .hero{
+        height: 370px;
+        margin-top: -35px;
+        margin-bottom: 50px;
+    }
+    .hero-div{
+        margin-top: 0;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero-div h1{
+        font-size: 30px;
+        line-height: 13px;
+        margin-bottom: 20px;
+    }
+    .hero-div>div>p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        width: 96%;
+    }
+    .hero-button a{
+        padding: 16px 24px;
+    }
+    .hero-div>a>h2{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) 
+and (max-width: 767px){
+    .hero{
+        height: 370px;
+        margin-top: -90px;
+        margin-bottom: 100px;
+    }
+    .hero-div{
+        margin-top: 0;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero-div h1{
+        font-size: 30px;
+        line-height: 13px;
+        margin-bottom: 20px;
+    }
+    .hero-div>div>p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        width: 96%;
+    }
+    .hero-button{
+        margin: 30px auto;
+        margin-top: 50px;
+    }
+    .hero-button a{
+        padding: 16px 24px;
+    }
+    .hero-div>a>h2{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+and (max-width: 991px){
+    .hero{
+        height: 1100px;
+        margin-bottom: 50px;
+    }
+    .hero-div{
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    .hero-div h1{
+        font-size: 60px;
+        line-height: 0.7em;
+        margin-bottom: 20px;
+    }
+    .hero-div>div>p{
+        font-size: 20px;
+        line-height: 1.5em;
+        margin-top: 20px;
+        text-align: center;
+        width: 60%;
+    }
+    .hero-img>img{
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+and (max-width: 1023px){
+    .hero{
+        height: 1200px;
+        margin-bottom: 100px;
+    }
+    .hero-div{
+        margin-bottom: 100px;
+    }
+    .hero-div h1{
+        font-size: 60px;
+        line-height: 0.8em;
+        margin-bottom: 10px;
+    }
+    .hero-div>div>p{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+        text-align: center;
+        width: 60%;
+    }
+    .hero-img>img{
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .hero{
+        height: 1200px;
+        margin-bottom: 80px;
+    }
+    .hero-div{
+        margin-bottom: 100px;
+    }
+    .hero-div h1{
+        font-size: 72px;
+        line-height: 0.8em;
+        margin-bottom: 20px;
+    }
+    .hero-div>div>p{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 40px;
+        text-align: center;
+        width: 55%;
+    }
+    .hero-img>img{
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {}

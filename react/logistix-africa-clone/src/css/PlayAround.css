@@ -1,0 +1,130 @@
+.play-around-container{
+    background: radial-gradient(50% 50% at 50% 50%,#ffbd2d 0,#fa0 100%);
+    border-radius: 48px;
+    box-shadow: 1px 10px 20px #00000033;
+    box-sizing: border-box;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 70px 70px;
+    width: 60%;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+.play-around-container h1, .play-around-container p{
+    text-align: center;
+}
+.play-around-container div{
+    margin-top: 30px;
+    text-align: center;
+}
+.play-around-container h1{
+    color: #ffffff;
+    font-family: GT Super Display Bold;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px #0007;
+}
+.play-around-container p{
+    color: #1d1d1f;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+    margin: 0 auto;
+    opacity: .9;
+    width: 80%;
+}
+.play-around-container div button{
+    border: none;
+    background-color: #16a34a;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 40px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.play-around-container div button:hover{
+    background-color: #07d653;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {}
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {
+    .play-around-container{
+        border-radius: 0;
+        height: 300px;
+        padding: 50px 40px;
+        width: 100vw;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .play-around-container h1{
+        font-size: 24px;
+    }
+    .play-around-container p{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) 
+and (max-width: 767px){
+    .play-around-container{
+        height: 280px;
+        padding: 50px 90px;
+        width: 96%;
+    }
+    .play-around-container h1{
+        font-size: 24px;
+    }
+    .play-around-container p{
+        font-size: 16px;
+        width: 89%;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+and (max-width: 991px){
+    .play-around-container{
+        height: 340px;
+        padding: 70px 90px;
+        width: 90%;
+    }
+    .play-around-container h1{
+        font-size: 36px;
+    }
+    .play-around-container p{
+        font-size: 18px;
+        width: 79%;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+and (max-width: 1279px){
+    .play-around-container{
+        height: 340px;
+        padding: 70px 90px;
+        width: 80%;
+    }
+    .play-around-container h1{
+        font-size: 36px;
+    }
+    .play-around-container p{
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {}

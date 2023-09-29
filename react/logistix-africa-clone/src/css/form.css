@@ -1,0 +1,578 @@
+.section5-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 750px;
+    width: 95%;
+}
+.section5-div>div{
+    height: 95%;
+    width: 50%;
+}
+.section5-div1>hr{
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    height:0;
+    color:inherit;
+    border-top-width:1px;
+    margin: 30px auto;
+}
+.section5-div1{
+    color: #1d1d1f;
+    padding: 0 40px;
+}
+.section5-div1>div>img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.section5-div1>p{
+    line-height: 25px;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.section5-div1>p>a{
+    color: #1d1d1f;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.bandwagon{
+    font-family: GT Super Display Bold;
+    font-size: 3em;
+    line-height: 0.8em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.section5-div2{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    padding: 20px 40px;
+}
+.section5-div2 h3{
+    font-family: GT Super Display Bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.section5-div2>div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9fafb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-sizing: border-box;
+    height: 140px;
+    padding: 24px;
+    width: 100%;
+}
+.step-text-div{
+    margin-left: 0;
+}
+.step-ion{
+    margin-right: 0;
+}
+.learn-how{
+    display: flex;
+    height: 20px;
+    color: #1d1d1f;
+}
+.learn-how>a{
+    color: #3b82f6;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    width: 100px;
+}
+.learn-how>a>span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.play-circle-div>ion-icon{
+    font-size: 20px;
+}
+.step{
+    font-size: small;
+}
+.section5-div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200%;
+    margin: auto;
+}
+.section5-div3>div input, .section5-div3-6 textarea{
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 60px;
+    width: 450px;
+}
+.section5-div3-6 textarea{
+    resize: vertical;
+}
+.section5-div3>div input::placeholder, .section5-div3-6 textarea::placeholder{
+    color: #99999988;
+}
+.section5-div3>div input:focus, .section5-div3-6 textarea:focus{
+    background-color: #f9f9f9aa;
+    outline: none;
+}
+.section5-div3-2{
+    font-weight: 500;
+}
+.step-ion{
+    display: flex;
+    align-items: center;
+}
+.step-ion>ion-icon{
+    font-size: 35px;
+    font-weight: 100;
+    color: rgba(168, 168, 168, 0.39);
+}
+#subdomain-input{
+    width: 340px;
+}
+.section5-div3-8 input{
+    background-color: #22c55e;
+    color: #ffffff;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section5-div3-8 input:hover,.section5-div3-9 input:hover{
+    cursor: pointer;
+}
+.section5-div3-9 input{
+    background-color: #000;
+    color: #ffffff;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.select-div{
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    padding: 16px 0 16px 20px;
+    width: 450px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+.select-div>select{
+    border: none;
+    background-color: #ffffff;
+    color: #1d1d1f;
+    font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    width: 415px;
+}
+select option{
+   width: 400px;
+}
+
+.section5-div3 hr{
+    border: none;
+    border-top:1px solid #e2e2e2;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+}
+
+
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {}
+@media only screen and (min-width: 360px)
+and (max-width: 600px) {
+    .section5-div{
+        flex-direction: column;
+        height: 1500px;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .section5-div>div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section5-div11{
+        height: 500px;
+    }
+    .section5-div1{
+        height: 280px;
+    }
+    .section5-div1>div>img{
+      width: 70%;
+    }
+    .bandwagon{
+        font-size: 36px;
+    }
+    .section5-div1>p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .section5-div2{
+        height: 430px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .step{
+        font-size: 12px;
+        margin-bottom: -5px;
+    }
+    .section5-div2>div>div>h3{
+        font-size: 18px;
+    }
+    .section5-div2>div{
+        height: 120px;
+        width: 100%;
+    }
+    .step-text-div{
+        margin-left: 0;
+    }
+    .step-ion{
+        margin-right: 0;
+    }
+    .section5-div3{
+        align-content: center;
+        box-sizing: border-box;
+        height: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5-div3>div{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5-div3>div input, .section5-div3-6 textarea{
+        font-size: 18px;
+        height: 56px;
+        margin: 0 auto;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 90%;
+    }
+    .section5-div3>hr{
+        width: 90%;
+    }
+    #subdomain-input{
+        margin-right: 0;
+        width: 60%;
+    }
+    .section5-div3-8 input{
+        font-size: 18px;
+    }
+    .select-div{
+        height: 56px;
+        padding: 15px 0 15px 20px;
+        position: relative;
+    }
+    #select-div{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .select-div>select{
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 600px) 
+and (max-width: 767px){
+    .section5-div{
+        flex-direction: column;
+        height: 1500px;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .section5-div>div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section5-div11{
+        height: 500px;
+    }
+    .section5-div1{
+        height: 280px;
+    }
+    .section5-div1>div>img{
+      width: 50%;
+    }
+    .bandwagon{
+        font-size: 36px;
+    }
+    .section5-div1>p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .section5-div2{
+        height: 430px;
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .section5-div2>div{
+        height: 120px;
+        width: 94%;
+    }
+    .step{
+        font-size: 12px;
+    }
+    .step-text-div>h3{
+        font-size: 18px;
+    }
+    .step-text-div{
+        margin-left: 0;
+    }
+    .step-ion{
+        margin-right: 0;
+    }
+    .section5-div3{
+        height: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5-div3>div{
+        width: 100%;
+    }
+    .section5-div3>div input, .section5-div3-6 textarea{
+        font-size: 18px;
+        height: 56px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 94%;
+    }
+    .section5-div3>hr{
+        width: 92%;
+    }
+    #subdomain-input{
+        width: 75%;
+    }
+    .section5-div3-8 input{
+        font-size: 18px;
+    }
+    .select-div{
+        padding: 15px 0 15px 20px;
+        height: 56px;
+        width: 49px;
+    }
+    #select-div{
+       width:  94%;
+    }
+    .select-div>select{
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+and (max-width: 991px){
+    .section5-div{
+        flex-direction: column;
+        height: 1500px;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .section5-div>div{
+        /* border: 1px solid #000; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section5-div11{
+        height: 500px;
+        width: 100%;
+    }
+    .section5-div1{
+        height: 280px;
+        margin: 0 auto;
+        padding: 0;
+        width: 86%;
+    }
+    .section5-div1>div>img{
+      width: 40%;
+    }
+    .bandwagon{
+        font-size: 54px;
+    }
+    .section5-div1>p{
+        font-size: 18px;
+    }
+    .section5-div2{
+        height: 430px;
+        width: 100%;
+    }
+    .section5-div2>div{
+        height: 120px;
+        width: 94%;
+    }
+    .step{
+        font-size: 12px;
+    }
+    .step-text-div>h3{
+        font-size: 20px;
+    }
+    .section5-div3{
+        height: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5-div3>div{
+        width: 90%;
+    }
+    .section5-div3>div input, .section5-div3-6 textarea{
+        font-size: 18px;
+        height: 56px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 94%;
+    }
+    .section5-div3>hr{
+        width: 84%;
+    }
+    #subdomain-input{
+        margin-right: 0;
+        width: 80%;
+    }
+    .section5-div3-8 input{
+        font-size: 18px;
+    }
+    .section5-div3-7{
+        padding: 15px 0 15px 20px;
+        height: 56px;
+        width: 49px;
+    }
+    .select-div>select{
+        width: 98%;
+    }
+    #select-div{
+        margin: 0 auto;
+        width:  85%;
+     }
+}
+
+@media only screen and (min-width: 992px) 
+and (max-width: 1279px){
+    .section5-div{
+        flex-direction: column;
+        height: 1500px;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .section5-div>div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section5-div11{
+        height: 500px;
+        width: 100%;
+    }
+    .section5-div1{
+        height: 280px;
+        margin: 0 auto;
+        padding: 0;
+        width: 86%;
+    }
+    .section5-div1>div>img{
+      width: 40%;
+    }
+    .bandwagon{
+        font-size: 54px;
+    }
+    .section5-div1>p{
+        font-size: 18px;
+    }
+    .section5-div2{
+        height: 430px;
+        width: 100%;
+    }
+    .section5-div2>div{
+        height: 120px;
+        width: 94%;
+    }
+    .step{
+        font-size: 12px;
+    }
+    .step-text-div>h3{
+        font-size: 20px;
+    }
+    .section5-div3{
+        height: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5-div3>div{
+        width: 90%;
+    }
+    .section5-div3>div input, .section5-div3-6 textarea{
+        font-size: 18px;
+        height: 56px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 94%;
+    }
+    .section5-div3>hr{
+        width: 84%;
+    }
+    #subdomain-input{
+        margin-right: 0;
+        width: 80%;
+    }
+    .section5-div3-8 input{
+        font-size: 18px;
+    }
+    .section5-div3-7{
+        padding: 15px 0 15px 20px;
+        height: 56px;
+        width: 49px;
+    }
+    .select-div>select{
+        width: 98%;
+    }
+    #select-div{
+        margin: 0 auto;
+        width:  85%;
+     }
+}
+
+@media only screen and (min-width: 1280px) {}

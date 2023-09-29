@@ -1,0 +1,39 @@
+.curve{
+    height: 138px;
+    width: 100%;
+}
+.curve>img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+#curve1{
+    top:18px;
+}
+#curve2{
+    top: 27px;
+}
+#curve3{
+    top: 36px;
+}
+#curve4{
+    top: 45px;
+}
+#curve5{
+    top: 54px;
+}
+#curve6{
+    top: 63px;
+}
+#curve7{
+    top: 72px;
+}
+#curve8{
+    top: 81px;
+}
+#curve9{
+    top: 90px;
+}
+#curve10{
+    top: 99px;
+}

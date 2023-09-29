@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: "GT Super Display Bold Italic";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Bold-Italic-Trial.otf");    
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Bold-Trial.otf");    
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Light-Italic-Trial.otf");    
+    font-style: italic;
+    font-weight: light;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Light-Trial.otf");    
+    font-style: normal;
+    font-weight: light;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Medium-Italic-Trial.otf");    
+    font-style: italic;
+    font-weight: medium;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Medium-Trial.otf");    
+    font-style: normal;
+    font-weight: medium;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Regular-Italic-Trial.otf");    
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Regular-Trial.otf");    
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Super-Italic-Trial.otf");    
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GT Super Display Bold";
+    src: url("../fonts/GT-Super-Display/GT-Super-Display-Super-Trial.otf");    
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "TT Norms Pro";
+    src: url("../fonts/TT-Norms-Pro/TT-Norms-Pro-Bold.woff");    
+    font-style: normal;
+    font-weight: Bold;
+}
+@font-face {
+    font-family: "TT Norms Pro Light";
+    src: url("../fonts/TT-Norms-Pro/TT-Norms-Pro-Light.woff");    
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: "TT Norms Pro";
+    src: url("../fonts/TT-Norms-Pro/TT-Norms-Pro-Medium.woff");    
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "TT Norms Pro";
+    src: url("../fonts/TT-Norms-Pro/TT-Norms-Pro-Regular.woff");    
+    font-style: normal;
+    font-weight: normal;
+}
