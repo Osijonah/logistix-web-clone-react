@@ -1,6 +1,11 @@
 import "../css/Usecases.css";
 import DeliveryBusiness from "../imgs/delivery-business.png";
 import React from "react";
+import { IoBusinessOutline } from "react-icons/io5";
+import { IoCartOutline } from "react-icons/io5";
+import { IoCodeSlashOutline } from "react-icons/io5";
+import { IoIosBicycle } from "react-icons/io";
+
 
 const Usecases = () => {
     return (
@@ -19,7 +24,7 @@ const Usecases = () => {
                                 <div>Delivery Business</div>
                             </div>
                             <div class="usecases-icon business">
-                                <ion-icon name="business-outline"></ion-icon>
+                                <IoBusinessOutline />
                             </div>
                             
                         </div>
@@ -31,7 +36,7 @@ const Usecases = () => {
                             <div>One-Man Dispatcher</div>
                            </div>
                            <div class="usecases-icon bicycle">
-                            <ion-icon name="bicycle"></ion-icon>
+                            < IoIosBicycle />
                            </div>
                         </div>
                     </a>
@@ -44,7 +49,7 @@ const Usecases = () => {
                             </div>
                             <div class="usecases-icon-soon">
                                 <div class="usecases-icon cart">
-                                    <ion-icon name="cart-outline"></ion-icon>
+                                    <IoCartOutline />
                                 </div>
                                 <div class="soon">Coming Soon</div>
                             </div>
@@ -58,7 +63,7 @@ const Usecases = () => {
                            </div>
                            <div class="usecases-icon-soon">
                                <div class="usecases-icon code">
-                                <ion-icon name="code-slash"></ion-icon>
+                                <IoCodeSlashOutline />
                                </div>
                                <div class="soon">Coming Soon</div>
                            </div>

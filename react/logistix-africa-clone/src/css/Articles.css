@@ -49,6 +49,9 @@
 and (max-width: 600px) {}
 @media only screen and (min-width: 360px)
 and (max-width: 600px) {
+    .articles-container{
+        width: 99%;
+    }
     .articles-container h1{
         font-size: 36px;
     }

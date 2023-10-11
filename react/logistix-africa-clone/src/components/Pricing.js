@@ -2,6 +2,7 @@ import "../css/pricing.css";
 import payment from "../imgs/payment.svg";
 import pricingChart from "../imgs/download.png";
 import React from "react";
+import { IoInformationCircleOutline } from "react-icons/io5";
 
 const Pricing = () => {
     return (
@@ -25,7 +26,7 @@ const Pricing = () => {
                         <hr/>
                         <div class="pricing-info-div">
                             <div class="info-icon">
-                                <ion-icon name="information-circle-outline"></ion-icon>
+                                <IoInformationCircleOutline />
                             </div>
                             <div class="pricing-info">
                                 <p>

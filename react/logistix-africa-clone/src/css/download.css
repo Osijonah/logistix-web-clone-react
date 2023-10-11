@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-    border-radius: 70px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 300px;
@@ -16,6 +15,7 @@
     -moz-border-radius: 70px;
     -ms-border-radius: 70px;
     -o-border-radius: 70px;
+    border-radius: 70px;
     padding: 40px;
 }
 .download-icon-txt{
@@ -34,7 +34,7 @@
     justify-content: space-around;
     margin: 0 auto;
     margin-bottom: 40px;
-    width: 70%;
+    width: 400px;
 }
 .download-icon{
     border: 1px solid rgba(131, 131, 131, 0.39);
@@ -42,17 +42,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 60px;
     height: 60px;
     width: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
+    border-radius: 60px;
 }
-.download-icon ion-icon{
+.download-icon>*{
     color: rgba(211, 211, 211, 0.39);
-    font-size: 30px;
+    font-size: 20px;
 }
 .download-txts{
     margin-bottom: 40px;
@@ -81,7 +81,6 @@
 .download-btn{
     background-color: #ffffff;
     border: none;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     padding: 12px 24px;
@@ -89,11 +88,12 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 .download-btn:hover{
     cursor: pointer;
 }
-.download-btn>div>ion-icon{
+.download-btn-icon{
     font-size: 30px;
 }
 .download-btn-txt{
@@ -126,9 +126,8 @@
 @media only screen and (min-width: 360px)
 and (max-width: 600px) {}
 @media only screen and (min-width: 360px)
-and (max-width: 600px) {
+and (max-width: 599px) {
     .download-container{
-        border-radius: 40px;
         height: 550px;
         margin-bottom: 50px;
         width: 96%;
@@ -136,22 +135,22 @@ and (max-width: 600px) {
         -moz-border-radius: 40px;
         -ms-border-radius: 40px;
         -o-border-radius: 40px;
+        border-radius: 40px;
 }
     .download-icons{
-        border: 1px solid white;
         height: 100px;
         margin: 0 auto;
         margin-bottom: 30px;
         width: 300px;
     }
     .download-icon{
-        border-radius: 64px;
         height: 64px;
         width: 64px;
         -webkit-border-radius: 64px;
         -moz-border-radius: 64px;
         -ms-border-radius: 64px;
         -o-border-radius: 64px;
+        border-radius: 64px;
 }
     .download-icon-txt{
         font-size: 12px;
@@ -159,7 +158,7 @@ and (max-width: 600px) {
     .download-txts{
         margin: 0 auto;
         margin-bottom: 50px;
-        width: 80%;
+        width: 90%;
     }
     .download-txts>h2{
         font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
@@ -173,7 +172,7 @@ and (max-width: 600px) {
     .download-btns{
         flex-direction: column;
         height: 130px;
-        width: 56%;
+        width: 65%;
     }
     .download-btn{
         height: 60px;
@@ -185,7 +184,6 @@ and (max-width: 600px) {
 @media only screen and (min-width: 600px) 
 and (max-width: 767px){
     .download-container{
-        border-radius: 40px;
         height: 550px;
         margin-bottom: 100px;
         width: 96%;
@@ -193,19 +191,20 @@ and (max-width: 767px){
         -moz-border-radius: 40px;
         -ms-border-radius: 40px;
         -o-border-radius: 40px;
+        border-radius: 40px;
 }
     .download-icons{
         width: 55%;
-        height: 150px;
+        height: 100px;
     }
     .download-icon{
-        border-radius: 64px;
         height: 64px;
         width: 64px;
         -webkit-border-radius: 64px;
         -moz-border-radius: 64px;
         -ms-border-radius: 64px;
         -o-border-radius: 64px;
+        border-radius: 64px;
 }
     .download-icon-txt{
         font-size: 12px;
@@ -228,7 +227,7 @@ and (max-width: 767px){
     .download-btns{
         flex-direction: column;
         height: 130px;
-        width: 38%;
+        width: 40%;
     }
     .download-btn{
         height: 60px;
@@ -240,7 +239,6 @@ and (max-width: 767px){
 @media only screen and (min-width: 768px) 
 and (max-width: 991px){
     .download-container{
-        border-radius: 40px;
         height: 550px;
         margin-bottom: 150px;
         padding-bottom: 60px;
@@ -250,6 +248,7 @@ and (max-width: 991px){
         -moz-border-radius: 40px;
         -ms-border-radius: 40px;
         -o-border-radius: 40px;
+        border-radius: 40px;
     }
     .download-icons{
         margin: 0 auto;
@@ -261,13 +260,13 @@ and (max-width: 991px){
         height: 90px;
     }
     .download-icon{
-        border-radius: 60px;
         height: 60px;
         width: 60px;
         -webkit-border-radius: 60px;
         -moz-border-radius: 60px;
         -ms-border-radius: 60px;
         -o-border-radius: 60px;
+        border-radius: 60px;
 }
     .download-icon-txt{
         font-size: 12px;
@@ -276,7 +275,7 @@ and (max-width: 991px){
         margin: 0 auto;
         margin-bottom: 10px;
         margin-top: 10px;
-        width: 80%;
+        width: 90%;
     }
     .download-txts>h2{
         font-family: GT Super Display Bold;
@@ -292,7 +291,7 @@ and (max-width: 991px){
         flex-direction: column;
         height: 130px;
         margin-top: 40px;
-        width: 48%;
+        width: 50%;
     }
     .download-btn{
         height: 60px;
@@ -302,9 +301,8 @@ and (max-width: 991px){
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1023px){
     .download-container{
-        border-radius: 50px;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 150px;
@@ -315,6 +313,7 @@ and (max-width: 1279px){
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
+        border-radius: 50px;
     }
     .download-icons{
         display: flex;
@@ -322,19 +321,19 @@ and (max-width: 1279px){
         justify-content: space-around;
         margin: 0 auto;
         margin-bottom: 20px;
-        width: 70%;
+        width: 400px;
     }
     .download-icons-child1,.download-icons-child2,.download-icons-child3{
         height: 90px;
     }
     .download-icon{
-        border-radius: 60px;
         height: 60px;
         width: 60px;
         -webkit-border-radius: 60px;
         -moz-border-radius: 60px;
         -ms-border-radius: 60px;
         -o-border-radius: 60px;
+        border-radius: 60px;
 }
     .download-txts{
         margin-bottom: 40px;
@@ -357,12 +356,11 @@ and (max-width: 1279px){
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        width: 70%;
+        width: 400px;
     }
     .download-btn{
         background-color: #ffffff;
         border: none;
-        border-radius: 10px;
         display: flex;
         align-items: center;
         padding: 12px 24px;
@@ -370,6 +368,7 @@ and (max-width: 1279px){
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+        border-radius: 10px;
     }
     .download-btn:hover{
         cursor: pointer;
@@ -381,6 +380,36 @@ and (max-width: 1279px){
         display: flex;
         flex-direction: column;
         align-content: flex-start;
+    }
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .download-container{
+        margin-top: 100px;
+        margin-bottom: 300px;
+        height: 420px;
+        width: 60%;
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        -ms-border-radius: 70px;
+        -o-border-radius: 70px;
+        border-radius: 70px;
+        padding: 40px;
+    }
+    .download-icons{
+        width: 400px;
+    }
+    .download-txts{
+        width: 80%;
+    }
+    .download-txts>h2{
+        font-size: 36px;
+    }
+    .download-btns{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 400px;
     }
 }
 

@@ -1,7 +1,10 @@
 import "../css/form.css";
 import join from "../imgs/join.svg";
-import React from "react";
-import { IonIcon } from "@ionic/react";
+import React from "react";import { IoStorefrontOutline } from "react-icons/io5";
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
+import { IoRocketOutline } from "react-icons/io5";
+import { IoPlayCircle } from "react-icons/io5";
+
 
 const Form = () => {
     return (
@@ -20,11 +23,11 @@ const Form = () => {
                                 <div class="step">STEP 1</div>
                                 <h3>Create your business</h3>
                                 <div class="learn-how" id="lh1">
-                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IonIcon icon="play-circle"/></div></a>
+                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IoPlayCircle /></div></a>
                                 </div>
                             </div>
                             <div class="step-ion">
-                                <IonIcon icon="storefront-outline"/>
+                                <IoStorefrontOutline />
                             </div>
                         </div>
                         <div>
@@ -32,11 +35,11 @@ const Form = () => {
                                 <div class="step">STEP 2</div>
                                 <h3> Activate your business</h3>
                                 <div class="learn-how" id="lh2">
-                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IonIcon icon="play-circle"/></div></a>
+                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IoPlayCircle /></div></a>
                                 </div>
                             </div>
                             <div class="step-ion">
-                                <IonIcon icon="shield-checkmark-outline"/>
+                                <IoShieldCheckmarkOutline />
                             </div>
                         </div>
                         <div>
@@ -44,11 +47,11 @@ const Form = () => {
                                 <div class="step">STEP 3</div>
                                 <h3>Complete business setup</h3>
                                 <div class="learn-how" id="lh3">
-                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IonIcon icon="play-circle"/></div></a>
+                                    <a href="/"><span>Learn how</span><div class="play-circle-div"><IoPlayCircle/></div></a>
                                 </div>
                             </div>
                             <div class="step-ion">
-                                <IonIcon icon="rocket-outline"/>
+                                <IoRocketOutline />
                             </div>
                         </div>
                         
@@ -61,7 +64,7 @@ const Form = () => {
                         <input type="text" placeholder="Your Business Name"/>
                     </div>
                     <div class="section5-div3-2">
-                        <input id="subdomain-input" type="text" placeholder="Your Business Subdomain"/> &nbsp; .logistix.africa
+                        <input id="subdomain-input" type="text" placeholder="Your Business Subdomain"/> <span>.logistix.africa</span> 
                     </div>
                     <div class="section5-div3-3">
                         <input type="text" placeholder=" Your RC Number (Optional)"/>

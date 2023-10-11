@@ -1,6 +1,6 @@
 import "../css/faq.css";
 import React from "react";
-import { IonIcon } from "@ionic/react";
+import { IoAddCircle } from "react-icons/io5";
 
 const Faq = () => {
     return (
@@ -20,14 +20,14 @@ const Faq = () => {
                     <div class="faq-question1">
                         <div class="seen-div" id="sd1">
                             <div class="faq-text">How do I sign in?</div>
-                            <div class="faq-icon" id="sd-icon1"><IonIcon icon="add-circle"/></div>
+                            <div class="faq-icon" id="sd-icon1"><IoAddCircle /></div>
                         </div>
                         <div class="hidden-div" id="hd1"></div>
                     </div>
                     <div class="faq-question2">
                         <div class="seen-div" id="sd2">
                             <div class="faq-text">Is logistix free?</div>
-                            <div class="faq-icon" id="sd-icon2"><IonIcon icon="add-circle"/></div>
+                            <div class="faq-icon" id="sd-icon2"><IoAddCircle /></div>
                         </div>
                         <div class="hidden-div" id="hd2">
                             Yes, Logistix is free, however there are transaction charges for every Parcel shipped. 
@@ -37,21 +37,21 @@ const Faq = () => {
                     <div class="faq-question3">
                         <div class="seen-div" id="sd3">
                             <div class="faq-text">Where do I get the Business App?</div>
-                            <div class="faq-icon" id="sd-icon3"><IonIcon icon="add-circle"/></div>
+                            <div class="faq-icon" id="sd-icon3"><IoAddCircle /></div>
                         </div>
                         <div class="hidden-div" id="hd3"></div>
                     </div>
                     <div class="faq-question4">
                         <div class="seen-div" id="sd4">
                             <div class="faq-text">Where do I get the Staff App?</div>
-                            <div class="faq-icon" id="sd-icon4"><IonIcon icon="add-circle"/></div>
+                            <div class="faq-icon" id="sd-icon4"><IoAddCircle /></div>
                         </div>
                         <div class="hidden-div" id="hd4"></div>
                     </div>
                     <div class="faq-question5">
                         <div class="seen-div" id="sd5">
                             <div class="faq-text">Where do I get the Rider's App?</div>
-                            <div class="faq-icon" id="sd-icon5"><IonIcon icon="add-circle"/></div>
+                            <div class="faq-icon" id="sd-icon5"><IoAddCircle /></div>
                         </div>
                         <div class="hidden-div" id="hd5"></div>
                     </div>

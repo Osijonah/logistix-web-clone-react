@@ -1,7 +1,13 @@
 import "../css/dispatcher.css";
 import app from "../imgs/app.svg";
 import React from "react";
-import { IonIcon } from '@ionic/react';
+import { IoCube } from "react-icons/io5";
+import { IoTime } from "react-icons/io5";
+import { IoAdd } from "react-icons/io5";
+import { IoNavigate } from "react-icons/io5";
+import { IoLocation } from "react-icons/io5";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { IoLogoApple } from "react-icons/io5";
 
 const Dispatcher = () => {
     return (
@@ -20,23 +26,23 @@ const Dispatcher = () => {
                     </div>
                     <div class="dispatchers-list">
                         <div class="dispatchers-list-item">
-                            <div><IonIcon icon="cube"/></div>
+                            <div><IoCube /></div>
                             <p>View Active Deliveries</p>
                         </div>
                         <div class="dispatchers-list-item">
-                            <div><IonIcon icon="time"></IonIcon></div>
+                            <div><IoTime /></div>
                             <p>View Delivery History</p>
                         </div>
                         <div class="dispatchers-list-item">
-                            <div><IonIcon icon="add"></IonIcon></div>
+                            <div><IoAdd /></div>
                             <p>Create Delivery Orders</p>
                         </div>
                         <div class="dispatchers-list-item">
-                            <div><IonIcon icon="navigate"></IonIcon></div>
+                            <div><IoNavigate /></div>
                             <p>View Directions</p>
                         </div>
                         <div class="dispatchers-list-item">
-                            <div><IonIcon icon="location"></IonIcon></div>
+                            <div><IoLocation /></div>
                             <p>View Location on Map</p>
                         </div>
                         
@@ -44,7 +50,7 @@ const Dispatcher = () => {
                     <div class="dispatchers-btns-container">
                         <button class="dispatchers-btn1 dispatchers-btn">
                             <div class="dispatchers-btn-icon">
-                                <IonIcon icon="logo-google-playstore"></IonIcon>
+                                <IoLogoGooglePlaystore />
                             </div>
                             <div class="dispatchers-btn-txt">
                                 <div class="dispatchers-btn-txt1">Get it on</div>
@@ -53,7 +59,7 @@ const Dispatcher = () => {
                         </button>
                         <button class="dispatchers-btn2 dispatchers-btn">
                             <div class="dispatchers-btn-icon">
-                                <IonIcon icon="logo-apple"></IonIcon>
+                                <IoLogoApple />
                             </div>
                             <div class="dispatchers-btn-txt">
                                 <div class="dispatchers-btn-txt1">Coming soon to the</div>

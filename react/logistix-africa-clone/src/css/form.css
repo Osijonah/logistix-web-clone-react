@@ -66,11 +66,11 @@
     display: flex;
     justify-content: space-between;
     background-color: #f9fafb;
-    border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    border-radius: 15px;
     box-sizing: border-box;
     height: 140px;
     padding: 24px;
@@ -80,6 +80,8 @@
     margin-left: 0;
 }
 .step-ion{
+    color: #777777;
+    font-size: 40px;
     margin-right: 0;
 }
 .learn-how{
@@ -115,7 +117,6 @@
 .section5-div3>div input, .section5-div3-6 textarea{
     box-sizing: border-box;
     border: 1px solid #e6e6e6;
-    border-radius: 30px;
     font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -124,6 +125,7 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
     height: 60px;
     width: 450px;
 }
@@ -173,7 +175,6 @@
 .select-div{
     box-sizing: border-box;
     border: 1px solid #e6e6e6;
-    border-radius: 30px;
     font-family: TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
     padding: 16px 0 16px 20px;
     width: 450px;
@@ -182,7 +183,12 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     -webkit-border-radius: 30px;
+    border-radius: 30px;
 }
+/* #select-div{
+    margin: 0 auto;
+    width: 90%;
+} */
 .select-div>select{
     border: none;
     background-color: #ffffff;
@@ -205,9 +211,9 @@ select option{
 
 
 @media only screen and (min-width: 360px)
-and (max-width: 600px) {}
+and (max-width: 599px) {}
 @media only screen and (min-width: 360px)
-and (max-width: 600px) {
+and (max-width: 599px) {
     .section5-div{
         flex-direction: column;
         height: 1500px;
@@ -226,7 +232,8 @@ and (max-width: 600px) {
         height: 500px;
     }
     .section5-div1{
-        height: 280px;
+        height: 310px;
+        padding: 0 30px;
     }
     .section5-div1>div>img{
       width: 70%;
@@ -241,18 +248,19 @@ and (max-width: 600px) {
     .section5-div2{
         height: 430px;
         margin-top: 15px;
+        padding: 20px;
         width: 100%;
     }
     .step{
         font-size: 12px;
         margin-bottom: -5px;
     }
-    .section5-div2>div>div>h3{
-        font-size: 18px;
-    }
     .section5-div2>div{
         height: 120px;
         width: 100%;
+    }
+    .section5-div2>div>div>h3{
+        font-size: 18px;
     }
     .step-text-div{
         margin-left: 0;
@@ -312,7 +320,7 @@ and (max-width: 767px){
         margin: 0 auto;
         margin-bottom: 200px;
         margin-top: 100px;
-        width: 100%;
+        width: 99%;
     }
     .section5-div>div{
         display: flex;
@@ -323,7 +331,9 @@ and (max-width: 767px){
         height: 500px;
     }
     .section5-div1{
-        height: 280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 240px;
     }
     .section5-div1>div>img{
       width: 50%;
@@ -335,9 +345,13 @@ and (max-width: 767px){
         font-size: 16px;
         margin-bottom: 20px;
     }
+    .section5-div1>hr{
+        margin: 10px auto;
+    }
     .section5-div2{
+        
         height: 430px;
-        margin-top: 30px;
+        margin-top: 10px;
         padding-left: 0;
         padding-right: 0;
         width: 100%;
@@ -378,6 +392,7 @@ and (max-width: 767px){
         width: 92%;
     }
     #subdomain-input{
+        margin-right: 5px;
         width: 75%;
     }
     .section5-div3-8 input{
@@ -408,7 +423,6 @@ and (max-width: 991px){
         width: 100%;
     }
     .section5-div>div{
-        /* border: 1px solid #000; */
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -487,7 +501,7 @@ and (max-width: 991px){
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1023px){
     .section5-div{
         flex-direction: column;
         height: 1500px;
@@ -572,7 +586,72 @@ and (max-width: 1279px){
     #select-div{
         margin: 0 auto;
         width:  85%;
-     }
+    }
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .section5-div{
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 850px;
+        width: 95%;
+    }
+    .bandwagon{
+        line-height: 1em;
+    }
+    .section5-div2{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        padding: 20px 40px;
+    }
+    .section5-div2>div{
+        display: flex;
+        justify-content: space-between;
+        background-color: #f9fafb;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        height: 140px;
+        padding: 24px;
+        width: 100%;
+    }
+    .section5-div3{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 200%;
+        margin: auto;
+        padding: 0 50px;
+    }
+    .section5-div3>div{
+        width: 300px;
+    }
+    .section5-div3>div input,.section5-div3>div>textarea{
+        width: 300px;
+    }
+    #subdomain-input{
+        width: 180px;
+    }
+    #select-div{
+        margin: 0 auto;
+        width: 300px;
+    }
+    #select-div>select{
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 1280px) {}

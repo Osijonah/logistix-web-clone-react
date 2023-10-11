@@ -16,7 +16,7 @@
     margin: 0 auto;
     margin-top: -20px;
     height: 200px;
-    width: 45%;
+    width: 60%;
 }
 .pricing-img>img{
     text-align: center;
@@ -274,7 +274,7 @@ and (max-width: 991px){
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1023px){
     .pricing-container{
         flex-direction: column;
         height: 900px;
@@ -320,6 +320,15 @@ and (max-width: 1279px){
     }
     .pricing-chart-img{
         margin-right: 0;
+    }
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .pricing-container{
+        width: 90%;
+    }
+    .pricing-description-txt p{
+        width: 350px;
     }
 }
 

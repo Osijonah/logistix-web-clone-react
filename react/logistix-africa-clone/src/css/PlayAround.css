@@ -1,18 +1,18 @@
 .play-around-container{
     background: radial-gradient(50% 50% at 50% 50%,#ffbd2d 0,#fa0 100%);
-    border-radius: 48px;
     box-shadow: 1px 10px 20px #00000033;
     box-sizing: border-box;
     height: 360px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 50px;
-    padding: 70px 70px;
+    padding: 70px 0;
     width: 60%;
     -webkit-border-radius: 48px;
     -moz-border-radius: 48px;
     -ms-border-radius: 48px;
     -o-border-radius: 48px;
+    border-radius: 48px;
 }
 .play-around-container h1, .play-around-container p{
     text-align: center;
@@ -35,7 +35,7 @@
     line-height: 25px;
     margin: 0 auto;
     opacity: .9;
-    width: 80%;
+    width: 500px;
 }
 .play-around-container div button{
     border: none;
@@ -61,21 +61,21 @@ and (max-width: 600px) {}
 @media only screen and (min-width: 360px)
 and (max-width: 600px) {
     .play-around-container{
-        border-radius: 0;
         height: 300px;
-        padding: 50px 40px;
+        padding: 40px 0;
         width: 100vw;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
+        border-radius: 0;
     }
     .play-around-container h1{
         font-size: 24px;
     }
     .play-around-container p{
         font-size: 16px;
-        width: 100%;
+        width: 345px;
     }
 }
 
@@ -83,7 +83,7 @@ and (max-width: 600px) {
 and (max-width: 767px){
     .play-around-container{
         height: 280px;
-        padding: 50px 90px;
+        padding: 30px 0;
         width: 96%;
     }
     .play-around-container h1{
@@ -91,7 +91,7 @@ and (max-width: 767px){
     }
     .play-around-container p{
         font-size: 16px;
-        width: 89%;
+        width: 460px;
     }
 }
 
@@ -99,7 +99,7 @@ and (max-width: 767px){
 and (max-width: 991px){
     .play-around-container{
         height: 340px;
-        padding: 70px 90px;
+        padding: 70px 0;
         width: 90%;
     }
     .play-around-container h1{
@@ -107,15 +107,15 @@ and (max-width: 991px){
     }
     .play-around-container p{
         font-size: 18px;
-        width: 79%;
+        width: 500px;
     }
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1023px){
     .play-around-container{
         height: 340px;
-        padding: 70px 90px;
+        padding: 70px 0;
         width: 80%;
     }
     .play-around-container h1{
@@ -123,7 +123,14 @@ and (max-width: 1279px){
     }
     .play-around-container p{
         font-size: 18px;
-        width: 80%;
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .play-around-container p{
+        font-size: 18px;
+        width: 500px;
     }
 }
 

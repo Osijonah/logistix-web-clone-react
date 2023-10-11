@@ -13,6 +13,8 @@ import Articles from "./Articles";
 import Faq from "./Faq";
 import PlayAround from "./PlayAround";
 import Footer from "./Footer";
+import FixedIcons from "./FixedIcons";
+import Slants from "./Slants";
 import React from "react";
 
 const App = () => {
@@ -33,6 +35,8 @@ const App = () => {
                     <Faq />
                     <PlayAround />
                     <Footer />
+                    <FixedIcons />
+                    <Slants />
 
                 </div>
             </body>

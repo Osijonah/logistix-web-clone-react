@@ -202,24 +202,16 @@ and (max-width: 767px){
     .footer-links{
         width: 100%;
     }
-    .footer-links>div,.footer-links>div>a{
-        margin-left: 0;
-    }
+
     .footer-contacts{
-        margin-left: 0;
+        align-items: center;
         width: 100%;
     }
     .footer-contacts>hr{
         width: 98%;
     }
-    .footer-contacts>span,.footer-contacts>hr,.footer-contacts>a{
-        margin-left: 0;
-    }
     .footer-child2>hr{
         margin-top: 50px;
-    }
-    .map-privacy-container{
-        margin-left: 0;
     }
 }
 
@@ -242,21 +234,21 @@ and (max-width: 991px){
          margin-top: 25px;
     }
     .footer-navs{
-        width: 100%;
+        width: 95%;
         margin-left: 0;
     }
     .footer-links{
-        margin-left: 0;
-        width: 60%;
+        margin-right: 0;
+        width: 55%;
     }
     .footer-links>div{
-        margin-left: 0;
+        margin-right: 0;
     }
     .footer-links>div>*{
         margin-left: 0;
     }
     .footer-contacts{
-        width: 30%;
+        width: 185px;
     }
     .footer-contacts>*{
         margin-left: 0;
@@ -264,13 +256,13 @@ and (max-width: 991px){
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1023px){
     .footer-container{
         width: 100%;
     }
     .footer-copyright{
         margin-left: 30px;
-        width: 100px;
+        width: 200px;
     }
     .footer-copyright div{
         width: 100%;
@@ -279,28 +271,35 @@ and (max-width: 1279px){
         margin-right: 0;
     }
     .footer-child2>.hr{
-         margin-top: 25px;
+        margin-top: 25px;
     }
     .footer-navs{
-        width: 100%;
         margin-left: 0;
+        width: 99%;
     }
     .footer-links{
-        margin-left: 0;
-        width: 60%;
+        justify-content: space-between;
+        margin-right: 60px;
+        width: 54%;
     }
     .footer-links>div{
-        margin-left: 0;
+        margin: 0;
     }
-    .footer-links>div>*{
-        margin-left: 0;
-    }
+
     .footer-contacts{
-        width: 30%;
+        margin-top: 10px;
+        width: 230px;
     }
     .footer-contacts>*{
         margin-left: 0;
     }
 }
 
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+    .footer-contacts{
+        margin-top: 10px;
+        width: 190px;
+    }
+}
 @media only screen and (min-width: 1280px) {}

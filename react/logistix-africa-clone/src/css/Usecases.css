@@ -42,7 +42,6 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    border-radius: 10px;
     padding: 10px 10px;
     padding-left: 20px;
     background-color: #ffffff;
@@ -52,6 +51,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 .usecases-tiles-div2>div:hover{
     cursor: pointer;
@@ -436,7 +436,6 @@ and (max-width: 991px){
          width: 256px;
      }
      .usecases-content-div{
-         border-radius: 10px;
          flex-direction: column;
          height: 1050px;
          justify-content: center;
@@ -447,6 +446,7 @@ and (max-width: 991px){
          -moz-border-radius: 10px;
          -ms-border-radius: 10px;
          -o-border-radius: 10px;
+         border-radius: 10px;
  }
      .usecases-content-div1{
          display: flex;
@@ -520,7 +520,7 @@ and (max-width: 991px){
 }
 
 @media only screen and (min-width: 992px) 
-and (max-width: 1279px){
+and (max-width: 1159px){
     .usecases-tiles-div{
         width: 92%;
      }
@@ -540,13 +540,140 @@ and (max-width: 1279px){
          overflow-x: scroll;
      }
      .usecases-anchor{
-         flex: 0 0 auto;
-         height: 12px;
-         margin-right: 25px;
-         width: 256px;
+        flex: 0 0 auto;
+        height: 12px;
+        margin-right: 25px;
+        width: 256px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) 
+and (max-width: 1023px){
+    .usecases-content-div{
+        flex-direction: column;
+        height: 1050px;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 40px;
+        width: 92%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+}
+    .usecases-content-div1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .usecases-content-div1-2{
+        width: 100%;
+    }
+    .usecases-content-div1-2>h3{
+        font-size: 24px;
+    }
+    .usecases-content-div1-2>p{
+        font-size: 16px;
+        line-height: 1.5em;
+        text-align: center;
+        width: 90%;
+    }
+    .usecases-content-div2{
+        height: 450px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        padding: 30px 0;
+        width: 100%;
+    }
+    .steps{
+        font-size: 30px;
+        line-height: 0.1em;
+        margin-bottom: 0;
+    }
+    .usecases-content-div2-flex{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 410px;
+        margin: 10px auto;
+        width: 100%;
+    
+    }
+    .num-divs{
+        display: flex;
+        box-sizing: border-box;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .num{
+        height: 20px;
+        margin-right: 20px;
+    }
+    .num>h1{
+        font-family: GT Super Display Bold;
+        font-size: 60px;
+        line-height: 0.2px;
+        height: 20px;
+    }
+    .num-heading{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .num-text{
+        line-height: 25px;
+    }
+    .num-text:nth-child(2){
+        font-size: 16px;
+    }
+    .step{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) 
+and (max-width: 1279px){
+
+}
+
+@media only screen and (min-width: 1160px) 
+and (max-width: 1279px){
+    .usecases-tiles-div{
+        width: 92%;
      }
+     .usecases-tiles-div1{
+         margin-bottom: 40px;
+     }
+     .usecases-tiles-div1 h1{
+         font-size: 54px;
+         margin-bottom: 10px;
+     }
+     .usecases-tiles-div1 p{
+        font-size: 20px;
+     }
+     .usecases-tiles-div2{
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+        height: 110px;
+        width: 100%;
+     }
+     .usecases-anchor{
+        width: 24%;
+     }
+     .usecases-client{
+        margin-left: 10px;
+    }
+    .usecases-icon-soon{
+        margin-right: 5px;
+    }
+    .usecases-icon{
+        margin-right: 10px;
+    }
      .usecases-content-div{
-         border-radius: 10px;
          flex-direction: column;
          height: 1050px;
          justify-content: center;
@@ -557,7 +684,8 @@ and (max-width: 1279px){
          -moz-border-radius: 10px;
          -ms-border-radius: 10px;
          -o-border-radius: 10px;
- }
+         border-radius: 10px;
+        }
      .usecases-content-div1{
          display: flex;
          flex-direction: column;

@@ -116,13 +116,13 @@
     background-color: #ffffff;
     border: 1px solid #ffaa00;
     color: #ffaa00;
-    border-radius: 30px;
     padding: 12px 16px;
     font-weight: 500;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
 }
 .small-balls{
     display: flex;
@@ -134,20 +134,20 @@
     background-color: #ffaa0033;
     height: 12px;
     width: 12px;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    border-radius: 50%;
 }
 .flatball{
     background-color: #ffaa00;
-    border-radius: 10px;
     width: 25px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
 }
 
 @media only screen 
@@ -159,9 +159,9 @@ and (max-width: 359px) {
 @media only screen and (min-width: 360px)
 and (max-width: 600px) {
     .quick-tour-div{
-        height: 800px;
+        height: 850px;
         width: 96%;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
         margin-top: 90px;
     }
     .quick-tour-div>h1{
@@ -169,11 +169,13 @@ and (max-width: 600px) {
         margin-bottom: 15px;
     }
     .quick-tour-div>p{
+        margin-bottom: 0;
         font-size: 16px;
     }
     .quick-tour>div{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 50px;
         width: 100%;
     }
     .quick-tour-btn-div{
@@ -182,11 +184,11 @@ and (max-width: 600px) {
     .quick-tour-img-div{
         margin: 0 auto;
         margin-bottom: 30px;
-        height: 350px;
+        height: 230px;
         width: 94%;
     }
     .quick-tour-img-div>img{
-        height: 340px;
+        height: 222px;
     }
     .quick-tour-text>h3{
         font-size: 24px;
@@ -240,6 +242,9 @@ and (max-width: 767px){
         font-size: 16px;
         line-height: 25px;
     }
+    .small-balls{
+        margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) 
@@ -288,15 +293,42 @@ and (max-width: 991px){
 @media only screen and (min-width: 992px) 
 and (max-width: 1023px){
     .quick-tour-div{
-        height: 700px;
+        height: 800px;
         width: 96%;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
     .quick-tour-div>h1{
         font-size: 54px;
     }
     .quick-tour-div>p{
         font-size: 20px;
+    }
+    .quick-tour>div{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .quick-tour-btn-div{
+        width: 100%;
+    }
+    .quick-tour-img-div{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        height: 390px;
+        width: 73%;
+    }
+    .quick-tour-img-div>img{
+        height: 380px;
+    }
+    .quick-tour-text>h3{
+        font-size: 24px;
+    }
+    .quick-tour-text>p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .small-balls{
+        margin-left: 0;
     }
 }
 @media only screen and (min-width: 1024px) 
@@ -314,14 +346,15 @@ and (max-width: 1279px){
         font-size: 20px;
     }
     .quick-tour>div{
-        border: 1px solid #000;
         column-gap: 40px;
-        /* justify-content: center; */
     }
     .quick-tour-img-div{
         width: 70%;
     }
     .quick-tour-btn-div{
+    }
+    .small-balls{
+        margin-left: 0;
     }
 }
 
