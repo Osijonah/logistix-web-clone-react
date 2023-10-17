@@ -19,10 +19,9 @@ body{
 }
 a{
     color: inherit;
-    cursor: pointer;
     text-decoration: none;
 }
-a:hover{
+*>a:hover{
     cursor: pointer;
 }
 
@@ -80,6 +79,7 @@ and (max-width: 1279px){
         display: block;
         box-sizing: border-box;
         margin: 0 auto;
-        width: 1280px;
+        /* width: 1280px; */
+        overflow-x: auto;
     }
 }
