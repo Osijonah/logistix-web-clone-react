@@ -13,6 +13,7 @@ html{
 body{
     overflow-x: hidden;
     position: relative;
+    width: 100vw;
 }
 *{
     margin: 0 auto;
@@ -80,6 +81,6 @@ and (max-width: 1279px){
         box-sizing: border-box;
         margin: 0 auto;
         /* width: 1280px; */
-        overflow-x: auto;
+        /* overflow-x: auto; */
     }
 }
