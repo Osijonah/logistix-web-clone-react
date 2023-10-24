@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logistix-web-clone-react/static/css/main.01baf789.css",
-    "main.js": "/logistix-web-clone-react/static/js/main.40545ef8.js",
+    "main.js": "/logistix-web-clone-react/static/js/main.e2bb2417.js",
     "static/media/logistix-app-bordered.png": "/logistix-web-clone-react/static/media/logistix-app-bordered.570f20cd281ee48c1fc1.png",
     "static/media/app.svg": "/logistix-web-clone-react/static/media/app.e1ece333fd0edcd14266d52d911d135c.svg",
     "static/media/tracker.png": "/logistix-web-clone-react/static/media/tracker.449c7a98187fb1477665.png",
@@ -13,7 +13,10 @@
     "static/media/TT-Norms-Pro-Medium.woff": "/logistix-web-clone-react/static/media/TT-Norms-Pro-Medium.03473ed02d4281ee8c4d.woff",
     "static/media/TT-Norms-Pro-Regular.woff": "/logistix-web-clone-react/static/media/TT-Norms-Pro-Regular.7264aae7685e1fc467e7.woff",
     "static/media/TT-Norms-Pro-Light.woff": "/logistix-web-clone-react/static/media/TT-Norms-Pro-Light.94d87fd8ee18b65ff213.woff",
+    "static/media/dispatcher.png": "/logistix-web-clone-react/static/media/dispatcher.621c0dec57eb89270489.png",
     "static/media/delivery-business.png": "/logistix-web-clone-react/static/media/delivery-business.0332505185b2407191a0.png",
+    "static/media/developer.png": "/logistix-web-clone-react/static/media/developer.b5062ad228cb724cb9ef.png",
+    "static/media/retail.png": "/logistix-web-clone-react/static/media/retail.074f4b7beb3810ffa82e.png",
     "static/media/splash.png": "/logistix-web-clone-react/static/media/splash.51fb50ca9b3f8f726367.png",
     "static/media/GT-Super-Display-Regular-Trial.otf": "/logistix-web-clone-react/static/media/GT-Super-Display-Regular-Trial.9f3f04cce242ce2cc94c.otf",
     "static/media/GT-Super-Display-Medium-Trial.otf": "/logistix-web-clone-react/static/media/GT-Super-Display-Medium-Trial.5c825ba7a7fe0584a27a.otf",
@@ -30,10 +33,10 @@
     "index.html": "/logistix-web-clone-react/index.html",
     "static/media/curve.svg": "/logistix-web-clone-react/static/media/curve.dc9b0f2f039226aff04b10d85fba4940.svg",
     "main.01baf789.css.map": "/logistix-web-clone-react/static/css/main.01baf789.css.map",
-    "main.40545ef8.js.map": "/logistix-web-clone-react/static/js/main.40545ef8.js.map"
+    "main.e2bb2417.js.map": "/logistix-web-clone-react/static/js/main.e2bb2417.js.map"
   },
   "entrypoints": [
     "static/css/main.01baf789.css",
-    "static/js/main.40545ef8.js"
+    "static/js/main.e2bb2417.js"
   ]
 }
