@@ -1,13 +1,62 @@
 import "../css/Usecases.css";
-import DeliveryBusiness from "../imgs/delivery-business.png";
-import React from "react";
+// import DeliveryBusiness from "../imgs/delivery-business.png";
+import React, { useState } from "react";
 import { IoBusinessOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import { IoIosBicycle } from "react-icons/io";
+import { IoCheckmarkOutline } from "react-icons/io5";
+import { usecasesList } from "../objects/usecasesData";
+
+
+
+
+//   const [isLoaded, setIsLoaded] = useState(false);
+//   const [isClicked, setIsClicked] = useState(false);
+
+//   const handleLoad = () => {
+//     setIsLoaded(true);
+//   };
+
+//   const handleClick = () => {
+//     setIsClicked(true);
+//   };
+
+//   return (
+//     <div>
+//       {!isLoaded && (
+//         <div onLoad={handleLoad}>
+//           Element has not loaded yet. Click to load.
+//         </div>
+//       )}
+//       {isLoaded && !isClicked && (
+//         <div onClick={handleClick}>
+//           Element loaded. Click to change.
+//         </div>
+//       )}
+//       {isClicked && (
+//         <div>
+//           Element has been clicked.
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default MyComponent;
+
 
 
 const Usecases = () => {
+    const [selectedBox, setSelectedBox] = useState(0);
+    
+    const handleClick = (num) => {
+        setSelectedBox(num);
+    };
+
+    let usecase = usecasesList[selectedBox];
+    console.log(usecase);
+
     return (
         <>
         <section class="usecases-tiles">
@@ -17,30 +66,30 @@ const Usecases = () => {
                     <p>Not sure if Logistix solves your problem? Check these out. Let's find out.</p>
                 </div>
                 <div class="usecases-tiles-div2">
-                    <a class="usecases-anchor" href="#usecases-container">
+                    <a onClick={()=>handleClick(0)}  class="usecases-anchor" href="#usecases-container">
                         <div class="usecases-tiles-div2-1 box-border">
                             <div class="usecases-client">
                                 <div class="usecases-client-intro">I OWN A</div>
                                 <div>Delivery Business</div>
                             </div>
-                            <div class="usecases-icon business">
-                                <IoBusinessOutline />
+                            <div class="usecases-icon business" >
+                                {  selectedBox === 0 ? <IoCheckmarkOutline /> : <IoBusinessOutline /> }
                             </div>
                             
                         </div>
                     </a>
-                    <a class="usecases-anchor" href="#usecases-container">
+                    <a onClick={()=>handleClick(1)} class="usecases-anchor" href="#usecases-container">
                         <div class="usecases-tiles-div2-2 box-border">
                            <div class="usecases-client">
                             <div class="usecases-client-intro">I AM A</div>
                             <div>One-Man Dispatcher</div>
                            </div>
                            <div class="usecases-icon bicycle">
-                            < IoIosBicycle />
+                           {  selectedBox === 1 ? <IoCheckmarkOutline /> : < IoIosBicycle /> }
                            </div>
                         </div>
                     </a>
-                    <a class="usecases-anchor" href="#usecases-container">
+                    <a onClick={()=>handleClick(2)} class="usecases-anchor" href="#usecases-container">
                         <div class="usecases-tiles-div2-3 box-border">
                             <div class="usecases-client">
                                 <div class="usecases-client-intro">I OWN A</div>
@@ -49,13 +98,13 @@ const Usecases = () => {
                             </div>
                             <div class="usecases-icon-soon">
                                 <div class="usecases-icon cart">
-                                    <IoCartOutline />
+                                {  selectedBox === 2 ? <IoCheckmarkOutline /> : <IoCartOutline /> }
                                 </div>
                                 <div class="soon">Coming Soon</div>
                             </div>
                         </div>
                     </a>
-                    <a class="usecases-anchor" href="#usecases-container">
+                    <a onClick={()=>handleClick(3)}  class="usecases-anchor" href="#usecases-container">
                         <div class="usecases-tiles-div2-4 box-border">
                            <div class="usecases-client">
                             <div class="usecases-client-intro">I AM A</div>
@@ -63,7 +112,7 @@ const Usecases = () => {
                            </div>
                            <div class="usecases-icon-soon">
                                <div class="usecases-icon code">
-                                <IoCodeSlashOutline />
+                               {  selectedBox === 3 ? <IoCheckmarkOutline /> : <IoCodeSlashOutline /> }
                                </div>
                                <div class="soon">Coming Soon</div>
                            </div>
@@ -77,13 +126,14 @@ const Usecases = () => {
         <div class="usecases-content-div" id="usecases-container">
             <div class="usecases-content-div1">
                 <div class="usecases-content-div1-1">
-                    <img src={DeliveryBusiness}  alt="" srcset=""/>
+                    <img src = { usecase.img } alt = {usecase.alt} />
+                    {/* <img src={DeliveryBusiness}  alt="" srcset=""/> */}
                 </div>
                 <div class="usecases-content-div1-2">
                     <h4>GETTING STARTED AS</h4>
-                    <h3>A Delivery Business</h3>
+                    <h3>{usecase.businessType}</h3>
                     <p>
-                        Get your business to operate at its Peak Potential. Manage Shipment Order and Administrators, Receive Periodic Performance Analytics, Let your customers track their parcel and do so much more.
+                        { usecase.businessMessage }
                     </p>
                 </div>
             </div>
@@ -98,8 +148,8 @@ const Usecases = () => {
                             <h1>01</h1>
                         </div>
                         <div class="num-text">
-                            <div class="num-heading">Create Your Business</div>
-                            <div>Register your business <a href="/">here</a>. You will get an email containing your website address and the credentials you need to manage your business on Logistix.</div>
+                            <div class="num-heading">{ usecase.step1Heading }</div>
+                            <div>{usecase.step1}</div>
                         </div>
                         
                     </div>
@@ -108,7 +158,7 @@ const Usecases = () => {
                             <h1>02</h1>
                         </div>
                         <div class="num-text">
-                            <div class="num-heading">Setup Your Business</div>
+                            <div class="num-heading">{ usecase.step2Heading }</div>
                             <div>After signing in with your credentials, you can Customize your website, Create Dispatchers, Add All the locations your business will ship to, Create your Price List and Add your bank account.</div>
                         </div>
                         
@@ -118,8 +168,8 @@ const Usecases = () => {
                             <h1>03</h1>
                         </div>
                         <div class="num-text">
-                            <div class="num-heading">Start Receiving Orders</div>
-                            <div>You can now share your website's address to your customers on social media or whatever platform of your choice so they can start shipping.</div>
+                            <div class="num-heading">{usecase.step3Heading}</div>
+                            <div>{usecase.step3}</div>
                         </div>
                         
                     </div>

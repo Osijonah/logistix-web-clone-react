@@ -7,6 +7,110 @@ import { IoPlayCircle } from "react-icons/io5";
 
 
 const Form = () => {
+
+    window.addEventListener('load', ()=>{
+
+        // const setup = () => {
+        const modal3 = document.querySelector("#modal3");
+        const lh3 = document.querySelector("#lh3");
+        const modal3Content = document.querySelector("#modal3-content");
+        const closeBtn3 = document.querySelector("#close3");
+        const modal1 = document.getElementById("modal1");
+        const modal2 = document.querySelector("#modal2");
+        const lh1 = document.getElementById("lh1");
+        const lh2 = document.querySelector("#lh2");
+        
+        const closeBtn1 = document.querySelector("#close1");
+        const closeBtn2 = document.querySelector("#close2");
+        
+        const modal1Content = document.querySelector("#modal1-content");
+        const modal2Content = document.querySelector("#modal2-content");
+        const video1 = document.getElementById("video1");
+        const video2 = document.getElementById("video2");
+        const video3 = document.getElementById("video3");
+        
+        const vidPlay1 = () => {
+            video1.play();
+        }
+        const vidPlay2 = () => {
+            video2.play();
+        }
+        const vidPlay3 = () => {
+            video3.play();
+        }
+        const vidPause1 = () => {
+            video1.pause();
+        }
+        const vidPause2 = () => {
+            video2.pause();
+        }
+        const vidPause3 = () => {
+            video3.pause();
+        }
+        
+        
+            // first learn how functionality
+            modal1.addEventListener("click", () => {
+                modal1.style.display="none";
+                modal1Content.style.display="none";
+                vidPause1();
+            } );
+            closeBtn1.addEventListener("click", () => {
+                modal1.style.display="none";
+                modal1Content.style.display="none";
+                vidPause1();
+            });
+        
+            lh1.addEventListener("click", (e)=>{
+                e.preventDefault();
+                modal1.style.display="flex";
+                modal1Content.style.display="block";
+                vidPlay1();
+            })
+        
+            // second learn how functionality
+            modal2.addEventListener("click", () => {
+                modal2.style.display="none";
+                modal2Content.style.display="none";
+                vidPause2();
+            } );
+            closeBtn2.addEventListener("click", () => {
+                modal2.style.display="none";
+                modal2Content.style.display="none";
+                vidPause2();
+            });
+        
+            lh2.addEventListener("click", (e)=>{
+                e.preventDefault();
+                modal2.style.display="flex";
+                modal2Content.style.display="block";
+                vidPlay2();
+            })
+        
+            // third learn how functionality
+            modal3.addEventListener("click", () => {
+                modal3.style.display="none";
+                modal3Content.style.display="none";
+                vidPause3();
+            } );
+            closeBtn3.addEventListener("click", () => {
+                modal3.style.display="none";
+                modal3Content.style.display="none";
+                vidPause3();
+            });
+        
+            lh3.addEventListener("click", (e)=>{
+                e.preventDefault();
+                modal3.style.display="flex";
+                modal3Content.style.display="block";
+                vidPlay3();
+            })
+        
+        
+        })
+
+
+
     return (
         <section class="section5">
             <div class="section5-div">

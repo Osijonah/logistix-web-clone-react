@@ -1,25 +1,9 @@
 import "../css/QuickTour.css";
 import { quicktourList } from "../objects/quickTourData";
-import React, { useState, useRef  } from "react";
-
-
-// const myRef = useRef(null);
-
-// const handleClick = () => {
-//   // Access the DOM element using the ref
-//   myRef.current.style.backgroundColor = 'red';
-// };
-
-// return (
-//   <div>
-//     <button onClick={handleClick}>Change Color</button>
-//     <div ref={myRef}>This is the referenced element</div>
-//   </div>
-// );
+import React, { useState, useRef, useEffect  } from "react";
 
 
 const QuickTour = () => {
-    // const prevButton = 
 
     const [index, setIndex] = useState(0);
 
@@ -29,24 +13,27 @@ const QuickTour = () => {
     const smallBall3Ref = useRef(null);
     const smallBall4Ref = useRef(null);
     const smallBall5Ref = useRef(null);
-    if(prevRef.current){
-        index===0 ? prevRef.current.classList.add('faint'): prevRef.current.classList.remove('faint');
-    }
-    if(smallBall1Ref.current){
-        index===0 ? smallBall1Ref.current.classList.add('flatball'): smallBall1Ref.current.classList.remove('flatball');
-    }
-    if(smallBall2Ref.current){
-        index===1 ? smallBall2Ref.current.classList.add('flatball'): smallBall2Ref.current.classList.remove('flatball');
-    }
-    if(smallBall3Ref.current){
-        index===2 ? smallBall3Ref.current.classList.add('flatball'): smallBall3Ref.current.classList.remove('flatball');
-    }
-    if(smallBall4Ref.current){
-        index===3 ? smallBall4Ref.current.classList.add('flatball'): smallBall4Ref.current.classList.remove('flatball');
-    }
-    if(smallBall5Ref.current){
-        index===4 ? smallBall5Ref.current.classList.add('flatball'): smallBall5Ref.current.classList.remove('flatball');
-    }
+
+    useEffect(() => {
+        if(prevRef.current){
+            index===0 ? prevRef.current.classList.add('faint'): prevRef.current.classList.remove('faint');
+        }
+        if(smallBall1Ref.current){
+            index===0 ? smallBall1Ref.current.classList.add('flatball'): smallBall1Ref.current.classList.remove('flatball');
+        }
+        if(smallBall2Ref.current){
+            index===1 ? smallBall2Ref.current.classList.add('flatball'): smallBall2Ref.current.classList.remove('flatball');
+        }
+        if(smallBall3Ref.current){
+            index===2 ? smallBall3Ref.current.classList.add('flatball'): smallBall3Ref.current.classList.remove('flatball');
+        }
+        if(smallBall4Ref.current){
+            index===3 ? smallBall4Ref.current.classList.add('flatball'): smallBall4Ref.current.classList.remove('flatball');
+        }
+        if(smallBall5Ref.current){
+            index===4 ? smallBall5Ref.current.classList.add('flatball'): smallBall5Ref.current.classList.remove('flatball');
+        }
+    })    
 
     const handlePreviousClick = (e) => {
         e.preventDefault();
@@ -59,6 +46,7 @@ const QuickTour = () => {
 
 
     let quicktour = quicktourList[index];
+
 
     return(
         <div class="quick-tour-div">
