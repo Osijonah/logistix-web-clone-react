@@ -5,7 +5,7 @@
     padding: 30px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     height: 750px;
     width: 95%;
 }
@@ -105,6 +105,68 @@
 }
 .step{
     font-size: small;
+}
+#modal1,#modal2,#modal3{
+    display: flex;
+    background-color: #000000bb;
+    position: fixed;
+    justify-content: space-between;
+    align-content: center;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+}
+.modal{
+    display: flex;
+    background-color: #00000077;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+    z-index: 3;
+}
+.modal-content{
+    border: blue;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    left: 60px;
+    right: 60px;
+    top: 0;
+    width: 90%;
+    z-index: 5;
+}
+.video-header{
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.vid-htext{
+    clear: right;
+    color: #ffffff;
+    display: inline-block;
+    font-family: GT Super Display Bold, TT Norms Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 30px;
+}
+.vid-close{
+    clear: left;
+    color: #ffffff;
+    font-family: TT Norms Pro Light,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif!important;
+    font-size: 30px;
+    font-weight: 100;
+    float: right;
+    margin: 5px;
+}
+video{
+    width: 100%;
+    height: 100%;
 }
 .section5-div3{
     display: flex;

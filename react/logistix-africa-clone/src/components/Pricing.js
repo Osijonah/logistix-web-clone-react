@@ -1,10 +1,16 @@
 import "../css/pricing.css";
 import payment from "../imgs/payment.svg";
 import pricingChart from "../imgs/download.png";
-import React from "react";
+import React, { useState } from "react";
 import { IoInformationCircleOutline } from "react-icons/io5";
 
 const Pricing = () => {
+
+    const [input, setInput] = useState("49500");
+    let revenueValue = parseInt(input);
+    let incomeValue = revenueValue - revenueValue/10;
+    let priceValue = revenueValue/10;
+
     return (
         <section className="pricing">
             <div class="pricing-container">
@@ -38,17 +44,17 @@ const Pricing = () => {
                         <span>IF YOUR MONTHLY REVENUE IS</span>
                         <div class="revenue-input-div">
                             <div>₦</div>
-                            <input id="revenue" type="text" value="49500"/>
+                            <input onChange={(e)=>{setInput(e.target.value)}} id="revenue" type="text" value={input}/>
                         </div>
                         <div class="income-price-container">
                             <div class="income-price">
                                 <div>
                                     <label>YOU TAKE</label>
-                                    <div id="income">₦44,550</div>
+                                    <div>{input ? '₦'+incomeValue: '₦'}</div>
                                 </div>
                                 <div>
                                     <label>WE GET ONLY</label>
-                                    <div id="price">₦4,950</div>
+                                    <div>{input? '₦'+priceValue: '₦'}</div>
                                 </div>
                             </div>
                             <div class="pricing-chart-img">

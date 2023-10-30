@@ -55,7 +55,6 @@ const Usecases = () => {
     };
 
     let usecase = usecasesList[selectedBox];
-    console.log(usecase);
 
     return (
         <>

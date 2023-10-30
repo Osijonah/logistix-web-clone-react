@@ -4,7 +4,8 @@ import React from "react";
 
 const Curve = () => {
     return(
-        <section>
+        <>
+          <section>
             <div class="curve">
                 <img src={curve} id="curve1" alt=""/>
                 <img src={curve} id="curve2" alt=""/>
@@ -18,6 +19,8 @@ const Curve = () => {
                 <img src={curve} id="curve10" alt=""/>
             </div>
         </section>
+        </>
+        
     );
 }
 
