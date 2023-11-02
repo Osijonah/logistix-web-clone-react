@@ -1,5 +1,8 @@
+/* header{
+    background-color: #0001;
+} */
 header nav{
-    background-color: #ffffff;
+    background-color: #ffffff11;
     color: #1d1d1f;
     display: flex;
     align-items: center;
@@ -9,9 +12,9 @@ header nav{
     font-weight: medium;
     margin: 0 auto;
     position: relative;
-    width: 95%;
-    z-index: -1;
+    width: 85%;
 }
+
 .header-div1>a{
     display: flex;
     align-content: center;
@@ -22,13 +25,14 @@ header nav{
     font-size: 16px;
     font-weight: bold;
 }
-.header-div1>a:hover{
+.header-div1 a:hover{
     cursor: pointer;
 }
 .header-div1 img{
     margin-right: 5px;
     width: 42px;
 }
+
 .header-div1 div{
     display: inline;
 }

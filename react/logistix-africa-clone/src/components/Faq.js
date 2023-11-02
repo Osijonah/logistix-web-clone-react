@@ -13,7 +13,7 @@ const Faq = () => {
                         We have curated for you some common questions asked by the businesses who use Logistix. We hope this answers the questions you have in mind.
                     </p>
                     <div class="more-faq-btn">
-                        <a href="/" class="open-faq"><button>See More →</button></a>
+                        <a href="" class="open-faq"><button>See More →</button></a>
                     </div>
                 </div>
                 <div class="faq-questions">

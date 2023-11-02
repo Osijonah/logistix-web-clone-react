@@ -56,9 +56,9 @@ const QuickTour = () => {
                 <div>
                     <div class="quick-tour-btn-div">
                         <div class="prev-next-div">
-                            <a href="/" ref={prevRef} id="prev" onClick={handlePreviousClick} class="prev prev-next">← PREV</a>
+                            <a href="" ref={prevRef} id="prev" onClick={handlePreviousClick} class="prev prev-next">← PREV</a>
                             <span class="prev-next-span">{index+1} of {quicktourList.length}</span>
-                            <a href="/" onClick={handleNextClick} class="next prev-next">NEXT →</a>
+                            <a href="" onClick={handleNextClick} class="next prev-next">NEXT →</a>
                         </div>
                         <hr/>
                         <div class="quick-tour-txt-div">
@@ -71,7 +71,7 @@ const QuickTour = () => {
                                 </div>
                             </div>
                             <div class="button">
-                                <a href="http://">Get Started ↓</a>
+                                <a href="">Get Started ↓</a>
                             </div>
                             <div class="small-balls">
                                 <div class="small-ball" ref={smallBall1Ref}></div>

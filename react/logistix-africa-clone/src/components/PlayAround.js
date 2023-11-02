@@ -10,7 +10,7 @@ const PlayAround = () =>{
                     We got you covered! We thought you might wanna have fun with Logistix and so we created a demo playground where you can experience Logistix before experiencing Logistix.
                 </p>
                 <div>
-                    <a href="/"><button>Show Me →</button></a>
+                    <a href=""><button>Show Me →</button></a>
                 </div>
             </div>
         </section>

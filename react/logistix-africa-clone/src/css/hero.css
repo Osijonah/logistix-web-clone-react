@@ -16,7 +16,7 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
-    width: 95%;
+    width: 85%;
 }
 .hero-img img{
     width: 98%;
@@ -50,7 +50,6 @@
 .hero-button a{
     background-color: #ffaa00;
     border: none;
-    border-radius: 30px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
@@ -62,6 +61,7 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
 }
 .hero-button a:hover{
     cursor: pointer;

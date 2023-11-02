@@ -124,6 +124,7 @@ const Usecases = () => {
         <section class="usecases-content">
         <div class="usecases-content-div" id="usecases-container">
             <div class="usecases-content-div1">
+                    <div className="coming-soon">{usecase.soon}</div>
                 <div class="usecases-content-div1-1">
                     <img src = { usecase.img } alt = {usecase.alt} />
                     {/* <img src={DeliveryBusiness}  alt="" srcset=""/> */}

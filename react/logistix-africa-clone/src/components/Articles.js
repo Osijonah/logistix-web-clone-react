@@ -15,7 +15,7 @@ const Articles = () => {
                 <p>Ideas that will Shape & Supercharge your business.</p>
                 
                 <div class="articles-read-more">
-                    <a href="/" class="article-btn" onClick={handleClick}><button>Read More →</button></a>
+                    <a href="" class="article-btn" onClick={handleClick}><button>Read More →</button></a>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ const Articles = () => {
         <header>
             <nav>
                 <div class="header-div1">
-                    <a href="/">
+                    <a href="">
                         <img src="imgs/logistix-logo.png" alt=""/>
                         <div>Logistix</div>
                     </a>
@@ -33,8 +33,8 @@ const Articles = () => {
                 <div class="header-div2">
                     <a href="#download">download</a>
                     <a href="#dispatchers">for dispatchers</a>
-                    <a href="/">blog</a>
-                    <a href="/"><button>Get Started</button></a>
+                    <a href="#faq">blog</a>
+                    <a href=""><button>Get Started</button></a>
                 </div>
                 
             </nav>
@@ -56,8 +56,8 @@ const Articles = () => {
                 <input type="text" placeholder="Search Our Articles ..."/>
             </div>
             <div class="article-nav">
-             <a href="//" class="op" id="article-a1">ALL</a>
-             <a href="//" class="op" id="article-a2">PRODUCT</a>
+             <a href="" class="op" id="article-a1">ALL</a>
+             <a href="" class="op" id="article-a2">PRODUCT</a>
              <a href="//" class="op" id="article-a3">GROWTH</a>
              <a href="//" class="op" id="article-a4">ANNOUNCEMENT</a>
 

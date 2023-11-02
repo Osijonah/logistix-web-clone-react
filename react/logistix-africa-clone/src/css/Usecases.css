@@ -1,7 +1,7 @@
 .usecases-tiles-div{
     margin: 0 auto;
     margin-top: 100px;
-    width: 95%;
+    width: 85%;
     color: #1d1d1f;
 }
 .usecases-tiles-div1{
@@ -96,6 +96,14 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.coming-soon{
+    color: #16a34a;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    left: -55px;
+    top: -85px;
+}
 .soon{
     position: relative;
     color: #777777;
@@ -114,7 +122,7 @@
     margin-top: 100px;
     height: 700px;
     justify-content: space-around;
-    width: 95%;
+    width: 85%;
     box-sizing: border-box;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -123,6 +131,7 @@
     border-radius: 4px;
 }
 .usecases-content-div1{
+    position: relative;
     margin-top: 60px;
     width: 43%;
 }

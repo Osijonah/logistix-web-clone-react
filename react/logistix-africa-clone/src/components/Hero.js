@@ -13,9 +13,9 @@ const Hero = () =>{
                         <p>We believe in the opportunities that come with being <span class="medium1">In Absolute Control of your Business.</span> Logistix gives you the ability to shape your business by maximizing control and minimizing losses.</p>
                     </div>
                     <div class="hero-button">
-                        <a href="/">Get Started ↓</a>
+                        <a href=""> Get Started ↓</a>
                     </div>
-                    <a href="/"><h2 class="hero-div-h2">See how it works (demo) →</h2></a>
+                    <a href=""><h2 class="hero-div-h2">See how it works (demo) →</h2></a>
                 </div>
                 <div class="hero-img">
                     <img src={HeroImage} alt=""/>

@@ -16,18 +16,18 @@ const Footer = () => {
                         <div class="footer-links">
                             <div class="quick-links-container">
                                 <h4>Quick Links</h4>
-                                <a href="/">About</a>
-                                <a href="/" class="article-btn">Blog</a>
-                                <a href="/" class="open-faq">FAQs</a>
-                                <a href="/">Help Center</a>
-                                <a href="/">Demo</a>
+                                <a href="">About</a>
+                                <a href="" class="article-btn">Blog</a>
+                                <a href="" class="open-faq">FAQs</a>
+                                <a href="">Help Center</a>
+                                <a href="">Demo</a>
                             </div>
                             <div class="demo-playground-container">
                                 <h4>Demo/ Playground</h4>
-                                <a href="/">Home</a>
-                                <a href="/">Ship A Parcel</a>
-                                <a href="/">Sign In</a>
-                                <a href="/">Tracker</a>
+                                <a href="">Home</a>
+                                <a href="">Ship A Parcel</a>
+                                <a href="">Sign In</a>
+                                <a href="">Tracker</a>
                             </div>
                         </div>
                         <div class="footer-contacts">
@@ -35,15 +35,15 @@ const Footer = () => {
                                 Get In Touch.
                             </span>
                             <hr/>
-                            <a href="/">@logistix_ng</a>
-                            <a href="/">hello@logistix.africa</a>
-                            <a href="/">(234)-706-819-7341</a>
+                            <a href="">@logistix_ng</a>
+                            <a href="">hello@logistix.africa</a>
+                            <a href="">(234)-706-819-7341</a>
                         </div>
                     </div>
                     <hr/>
                     <div class="map-privacy-container">
-                        <a href="/">Site Map</a>
-                        <a href="/">Privacy Policy</a>
+                        <a href="">Site Map</a>
+                        <a href="">Privacy Policy</a>
                     </div>
                 </div>
             </div>

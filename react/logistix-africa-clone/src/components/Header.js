@@ -7,7 +7,7 @@ function Header() {
     <header>
       <nav>
         <div className="header-div1">
-          <a href="/">
+          <a href="">
             <img src={logistixLogo} alt="Logistix Logo" />
             <div>Logistix</div>
           </a>
@@ -15,8 +15,8 @@ function Header() {
         <div className="header-div2">
           <a href="#download" id="nav-download">download</a>
           <a href="#dispatchers" id="nav-dispatchers">for dispatchers</a>
-          <a href="/" id="nav-blog">blog</a>
-          <a href="/"><button>Get Started</button></a>
+          <a href="#article" id="nav-blog">blog</a>
+          <a href=""><button>Get Started</button></a>
         </div>
       </nav>
     </header>

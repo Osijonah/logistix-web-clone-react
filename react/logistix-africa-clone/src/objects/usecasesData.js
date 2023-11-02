@@ -5,6 +5,7 @@ import Developer from "../imgs/developer.png";
 
 export const usecasesList = [{
     img: Delivery,
+    soon: "",
     alt: "Delivery",
     businessType: "A Delivery Business",
     businessMessage: "Get your business to operate at its Peak Potential. Manage Shipment Order and Administrators, Receive Periodic Performance Analytics, Let your customers track their parcel and do so much more.",
@@ -17,6 +18,7 @@ export const usecasesList = [{
     step3: "You can now share your website's address to your customers on social media or whatever platform of your choice so they can start shipping.", 
 },{
     img: Dispatcher,
+    soon: "",
     alt: "Dispatcher",
     businessType: "A One-Man Dispatcher",
     businessMessage: "You don't have to own a delivery business to use Logistix. Sign Up on Logistix to receive Shipment orders, Give your Customers a way to Track their parcels and Get your performance analysis. Sounds like a fair deal?. Let's show you how.",
@@ -29,6 +31,7 @@ export const usecasesList = [{
     step3: "You can now share your website's address to your customers on social media or whatever platform of your choice so they can start shipping.", 
 },{
     img: Retail,
+    soon: "Coming Soon",
     alt: "Retail",
     businessType: "A Retail Business",
     businessMessage: "Leave your customers constantly impressed with fast and efficient reception of their ordered goods. Use Logistix to manage Orders, assign deliveries and let your customers know that thier order has been shipped.",
@@ -41,6 +44,7 @@ export const usecasesList = [{
     step3: "You can now share your website's address to your customers on social media or whatever platform of your choice so they can start shipping.", 
 },{
     img: Developer,
+    soon: "Coming Soon",
     alt: "Developer",
     businessType: "A Developer",
     businessMessage: "You're building some magic and you need a system that can handle last-mile delivery seamlessly without worrying about the intricacies of such a system? Then this is for you. You can integrate whatever solution you are building with Logistix using the Logistix API.",

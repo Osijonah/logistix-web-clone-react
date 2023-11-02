@@ -9,12 +9,14 @@ import { IoCloseOutline } from "react-icons/io5";
 
 const Form = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen1, setIsOpen1] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false);
+    const [isOpen3, setIsOpen3] = useState(false);
     const toggleModal1 = (e) => {
         e.preventDefault();
         // console.log("video" + video1);
         if(e.target.tagName!=='VIDEO'){
-            setIsOpen(!isOpen);
+            setIsOpen1(!isOpen1);
             // const video1 = document.getElementById("video1");
             // video1.play();
         }else{
@@ -25,7 +27,7 @@ const Form = () => {
     const toggleModal2 = (e) => {
         e.preventDefault();
         if(e.target.tagName!=='VIDEO'){
-            setIsOpen(!isOpen);
+            setIsOpen2(!isOpen2);
         }else{
             e.target.paused ? e.target.play(): e.target.pause();
         }
@@ -34,7 +36,7 @@ const Form = () => {
     const toggleModal3 = (e) => {
         e.preventDefault();
         if(e.target.tagName!=='VIDEO'){
-            setIsOpen(!isOpen);
+            setIsOpen3(!isOpen3);
         }else{
             e.target.paused ? e.target.play(): e.target.pause();
         }
@@ -53,7 +55,7 @@ const Form = () => {
                     <div class="section5-div1">
                         <div><img src={join} alt=""/></div>
                         <h1 class="bandwagon">Join The BandWagon.</h1>
-                        <p>We will need these details so we can Onboard you. All information is treated with complete confidentiality and in accordance with our <a href="http://">privacy policy.</a></p>
+                        <p>We will need these details so we can Onboard you. All information is treated with complete confidentiality and in accordance with our <a href="">privacy policy.</a></p>
                         <hr/>
                     </div>
                     <div class="section5-div2">
@@ -66,7 +68,7 @@ const Form = () => {
                                 </div>
 
                                 {
-                                    isOpen && ( 
+                                    isOpen1 && ( 
                                             <div className="modal" id="modal1" onClick={toggleModal1}>
                                             
                                                 <div className="modal-content" >
@@ -74,14 +76,16 @@ const Form = () => {
                                                         <div className="vid-htext">How to create your business</div>
                                                         <div className="vid-close" id="close1" onClick={toggleModal1}><IoCloseOutline /></div>
                                                     </div>
-                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/create-business.mp4" controls></video>
+                                                    <div className="video-container">
+                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/create-business.mp4" controls="controls" autoPlay="autoplay"></video>
+                                                    </div>
                                                 </div>
                                             </div>
                                     )
                                 }
                             </div>
                             <div class="step-ion">
-                                <IoStorefrontOutline />
+                                <IoStorefrontOutline className="ion-icon" />
                             </div>
                         </div>
                         <div>
@@ -89,26 +93,28 @@ const Form = () => {
                                 <div class="step">STEP 2</div>
                                 <h3> Activate your business</h3>
                                 <div class="learn-how" id="lh2">
-                                    <a href="/" onClick={toggleModal2}><span>Learn how</span><div class="play-circle-div"><IoPlayCircle /></div></a>
+                                    <a href="" onClick={toggleModal2}><span>Learn how</span><div class="play-circle-div"><IoPlayCircle /></div></a>
                                 </div>
 
                                 {
-                                    isOpen && ( 
+                                    isOpen2 && ( 
                                             <div className="modal" id="modal1" onClick={toggleModal2}>
                                             
                                                 <div className="modal-content" >
                                                     <div className="video-header">
-                                                        <div className="vid-htext">How to create your business</div>
+                                                        <div className="vid-htext">How to activate your business</div>
                                                         <div className="vid-close" id="close1" onClick={toggleModal2}><IoCloseOutline /></div>
                                                     </div>
-                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/activate-business.mp4" controls></video>
+                                                    <div className="video-container">
+                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/activate-business.mp4" controls autoPlay="autoplay"></video>
+                                                    </div>
                                                 </div>
                                             </div>
                                     )
                                 }
                             </div>
                             <div class="step-ion">
-                                <IoShieldCheckmarkOutline />
+                                <IoShieldCheckmarkOutline className="ion-icon"  />
                             </div>
                         </div>
                         <div>
@@ -116,25 +122,27 @@ const Form = () => {
                                 <div class="step">STEP 3</div>
                                 <h3>Complete business setup</h3>
                                 <div class="learn-how" id="lh3">
-                                    <a href="/" onClick={toggleModal3}><span>Learn how</span><div class="play-circle-div"><IoPlayCircle/></div></a>
+                                    <a href="" onClick={toggleModal3}><span>Learn how</span><div class="play-circle-div"><IoPlayCircle/></div></a>
                                 </div>
                                 {
-                                    isOpen && ( 
+                                    isOpen3 && ( 
                                             <div className="modal" id="modal1" onClick={toggleModal3}>
                                             
                                                 <div className="modal-content" >
                                                     <div className="video-header">
-                                                        <div className="vid-htext">How to create your business</div>
+                                                        <div className="vid-htext">How to setup your business</div>
                                                         <div className="vid-close" id="close1" onClick={toggleModal3}><IoCloseOutline /></div>
                                                     </div>
-                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/setup-business.mp4" controls></video>
+                                                    <div className="video-container">
+                                                    <video id="video1" src="https://res.cloudinary.com/echwood/video/upload/v1652312625/Logistix/videos/product-education/setup-business.mp4" controls autoPlay="autoplay"></video>
+                                                    </div>
                                                 </div>
                                             </div>
                                     )
                                 }
                             </div>
                             <div class="step-ion">
-                                <IoRocketOutline />
+                                <IoRocketOutline className="ion-icon"  />
                             </div>
                         </div>
                         
@@ -172,11 +180,11 @@ const Form = () => {
                         </select>
                     </div>
                     <div class="section5-div3-8">
-                        <a href="http://"><input type="button" value="Get Started"/></a>
+                        <a href=""><input type="button" value="Get Started"/></a>
                     </div>
                     <hr/>
                     <div class="section5-div3-9">
-                        <a href="http://"><input type="button" value="Resend Activation Link →"/></a>
+                        <a href=""><input type="button" value="Resend Activation Link →"/></a>
                     </div>
                 </div>
             </div>
