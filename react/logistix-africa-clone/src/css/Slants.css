@@ -68,39 +68,39 @@
 
 
 @media only screen and (min-width: 360px)
-and (max-width: 600px) {
+and (max-width: 599px) {
     .quick-tour-slant{
         clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
         height: 980px;
         /* width: 100%; */
-        top: 530px;
+        top: 550px;
     }
     .usecases-slant{
         clip-path: polygon(0 1%, 100% 0, 100% 99%, 0 100%);
-        height: 1870px;
+        height: 1880px;
         /* width: 100%; */
         top: 1490px;
     }
     .pricing-slant{
         position: absolute;
         background-color: #feebc833;
-        clip-path: polygon(0 1%, 100% 0, 100% 98.5%, 0 100%);
-        height: 1450px;
+        clip-path: polygon(0 2%, 100% 0, 100% 98.5%, 0 100%);
+        height: 1470px;
         /* width: 100%; */
         left: 0;
         right: 0;
-        top: 5770px;
+        top: 5800px;
         z-index: -1;
     }
     .footer-slant{
         position: absolute;
         background-color: #fafafa;
         clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 100%);
-        height: 800px;
+        height: 850px;
         /* width: 100%; */
         left: 0;
         right: 0;
-        top: 10200px;
+        top: 10050px;
         z-index: -1;
     }
 }
@@ -142,7 +142,7 @@ and (max-width: 767px){
         position: absolute;
         background-color: #fafafa;
         clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 100%);
-        height: 1100px;
+        height: 1050px;
         /* width: 100%; */
         left: 0;
         right: 0;
@@ -194,7 +194,7 @@ and (max-width: 991px){
         /* width: 100%; */
         left: 0;
         right: 0;
-        top: 10590px;
+        top: 10550px;
         z-index: -1;
     
     }
@@ -232,7 +232,7 @@ and (max-width: 1023px){
         /* width: 100%; */
         left: 0;
         right: 0;
-        top: 10650px;
+        top: 10600px;
         z-index: -1;
     
     }

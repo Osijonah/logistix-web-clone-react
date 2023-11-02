@@ -172,7 +172,7 @@ and (max-width: 599px) {
     .download-btns{
         flex-direction: column;
         height: 130px;
-        width: 65%;
+        width: 200px;
     }
     .download-btn{
         height: 60px;

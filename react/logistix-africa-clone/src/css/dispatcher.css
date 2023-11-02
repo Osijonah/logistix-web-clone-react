@@ -132,9 +132,10 @@
 @media only screen and (min-width: 360px)
 and (max-width: 600px) {}
 @media only screen and (min-width: 360px)
-and (max-width: 600px) {
+and (max-width: 599px) {
     .dispatchers-container{
         flex-direction: column;
+        margin-bottom: 100px;
     }
     .dispatchers-container>div{
         width: 100%;

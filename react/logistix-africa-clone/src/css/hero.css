@@ -44,7 +44,10 @@
     font-weight: 500;
 }
 .hero-button{
-    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 40px auto 30px auto;
     text-align: center;
 }
 .hero-button a{
@@ -53,15 +56,13 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    height: 50px;
-    padding: 20px 24px;
+    padding: 24px 30px;
     outline: none;
-    width: 90px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    border-radius: 30px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
 }
 .hero-button a:hover{
     cursor: pointer;
@@ -98,8 +99,8 @@ and (max-width: 359px) {
         width: 92%;
     }
     .hero-button a{
-        padding: 12px 18px;
-    }
+        padding: 18px 24px;
+}
     .hero-div>a>h2{
         font-size: 16px;
     }
@@ -110,6 +111,7 @@ and (max-width: 600px) {
         height: 370px;
         margin-top: -35px;
         margin-bottom: 50px;
+        width: 98%;
     }
     .hero-div{
         margin-top: 0;
@@ -129,7 +131,7 @@ and (max-width: 600px) {
         width: 96%;
     }
     .hero-button a{
-        padding: 16px 24px;
+        padding: 20px 24px;
     }
     .hero-div>a>h2{
         font-size: 18px;
@@ -142,6 +144,7 @@ and (max-width: 767px){
         height: 370px;
         margin-top: -90px;
         margin-bottom: 100px;
+        width: 98%;
     }
     .hero-div{
         margin-top: 0;
@@ -164,9 +167,9 @@ and (max-width: 767px){
         margin: 30px auto;
         margin-top: 50px;
     }
-    .hero-button a{
+    /* .hero-button a{
         padding: 16px 24px;
-    }
+    } */
     .hero-div>a>h2{
         font-size: 18px;
     }

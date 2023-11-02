@@ -90,12 +90,16 @@
 }
 .learn-how{
     display: flex;
+    align-content: center;
+    align-items: center;
     height: 20px;
     color: #1d1d1f;
 }
 .learn-how>a{
     color: #3b82f6;
     display: flex;
+    align-content: center;
+    align-items: center;
     justify-content: space-between;
     margin-left: 0;
     width: 100px;
@@ -104,7 +108,10 @@
     font-size: 16px;
     font-weight: 500;
 }
-.play-circle-div>ion-icon{
+.play-circle-div{
+    display: flex;
+}
+.play-circle-div>*{
     font-size: 20px;
 }
 .step{
