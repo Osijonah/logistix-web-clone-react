@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logistix-web-clone-react/static/css/main.e4da73ba.css",
-    "main.js": "/logistix-web-clone-react/static/js/main.2e7cc0ae.js",
+    "main.css": "/logistix-web-clone-react/static/css/main.131c55c6.css",
+    "main.js": "/logistix-web-clone-react/static/js/main.0336915d.js",
     "static/media/logistix-app-bordered.png": "/logistix-web-clone-react/static/media/logistix-app-bordered.570f20cd281ee48c1fc1.png",
     "static/media/app.svg": "/logistix-web-clone-react/static/media/app.e1ece333fd0edcd14266d52d911d135c.svg",
     "static/media/tracker.png": "/logistix-web-clone-react/static/media/tracker.449c7a98187fb1477665.png",
@@ -32,11 +32,11 @@
     "static/media/payment.svg": "/logistix-web-clone-react/static/media/payment.d61cc298edc12cce76a3756696a519ed.svg",
     "index.html": "/logistix-web-clone-react/index.html",
     "static/media/curve.svg": "/logistix-web-clone-react/static/media/curve.dc9b0f2f039226aff04b10d85fba4940.svg",
-    "main.e4da73ba.css.map": "/logistix-web-clone-react/static/css/main.e4da73ba.css.map",
-    "main.2e7cc0ae.js.map": "/logistix-web-clone-react/static/js/main.2e7cc0ae.js.map"
+    "main.131c55c6.css.map": "/logistix-web-clone-react/static/css/main.131c55c6.css.map",
+    "main.0336915d.js.map": "/logistix-web-clone-react/static/js/main.0336915d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4da73ba.css",
-    "static/js/main.2e7cc0ae.js"
+    "static/css/main.131c55c6.css",
+    "static/js/main.0336915d.js"
   ]
 }
